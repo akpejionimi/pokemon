@@ -25,7 +25,7 @@ class Pokedetails extends Component {
       <>
         {this.state.pokemon.map(pokemon => (
           <div className="wrapper">
-        <div className="card grow bg-light-blue animated slideInRight delay-2s"
+        <div className="card bg-light-blue grow"
             key={pokemon.id}>
             <p>{pokemon.name}</p>
             <img src={pokemon.img} alt="Pokedex" />
